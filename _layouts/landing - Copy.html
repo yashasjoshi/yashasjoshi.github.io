@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+  Original Design: Spectral by HTML5 UP
+    html5up.net | @n33co
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  Jekyll build mod
+-->
+<html>
+
+  {% include head.html %}
+
+  <body class="landing">
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+	{% include header.html %}
+
+		<article  class="wrapper style4 special">
+
+			<header class="wrapper style4 special">
+				<h2 style="font-family:Goudy Old Style;  font-size:280%" ><bold>{{ page.title }}</bold></h2>
+				<p style="font-family:Agency FB; font-size:170%">{{page.discription}}</p>
+			</header>
+
+		
+
+		</article>
+
+      {{ content }}
+
+      {% include footer.html %}
+
+      {% include scripts.html %}
+
+    </div>
+
+  </body>
+
+</html>
