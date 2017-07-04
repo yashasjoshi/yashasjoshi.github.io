@@ -2853,6 +2853,23 @@ img {
 		.wrapper.style2 {
 			background-color: #2e3842;
 		}
+		
+		.wrapper.style7 {
+			background-color: rgba(29, 36, 42,0.7);
+			color: #c7ebe8;
+		}
+		
+		.wrapper.style8 {
+			background-color: rgba(29, 36, 42,0.9);
+			color: #c7ebe8;
+		}
+		
+		.wrapper.style9 {
+			background-color: rgba(29, 36, 42,01);
+			color: #c7ebe8;		
+		}
+		
+
 
 		.wrapper.style3 {
 			background-color: #505393;
