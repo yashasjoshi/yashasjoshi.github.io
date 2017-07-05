@@ -3232,7 +3232,7 @@ img {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: rgba(46,56,66, 0.9);
+		background: rgba(46,56,66, 0.95);
 		color: #ffffff;
 		height: 100%;
 		overflow-y: hidden;
@@ -3309,11 +3309,11 @@ img {
 		}
 
 	body.is-menu-visible #page-wrapper {
-		opacity: 0.90;
-		-moz-filter: blur(0.5em);
-		-webkit-filter: blur(0.5em);
-		-ms-filter: blur(0.5em);
-		filter: blur(0.5em);
+		opacity: 1;
+		-moz-filter: blur(0.1em);
+		-webkit-filter: blur(0.05em);
+		-ms-filter: blur(0.1em);
+		filter: blur(0.04em);
 	}
 
 		body.is-menu-visible #page-wrapper:before {
